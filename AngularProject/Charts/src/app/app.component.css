@@ -1,0 +1,36 @@
+.content{
+    width: 100%;
+    position: absolute;
+    padding-left: 20em;
+}
+.sidecol{
+    z-index: 1;
+    position: fixed;
+    width: 20em;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+@media only screen and (max-width : 480px) {
+    .content{
+        padding-left: 0;
+    }
+    .sidecol{
+        width: 0;
+    }
+}
+
+@media only screen and (max-width : 769px){
+    .content{
+        padding-left: 0;
+    }
+    .sidecol{
+        width: 0;
+    }
+}
+
+@media only screen and (min-width : 768px){
+    .sidecol{
+        width: 20em;
+    }
+}

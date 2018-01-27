@@ -1,0 +1,11 @@
+<div class="main">
+    <div class="menu" id="menu-op">
+            <span class="glyphicon glyphicon-arrow-left"></span>
+    </div>
+    <div id="figura" class="svg"></div>
+    <h1><strong>Sitio</strong> Charts</h1>
+    <div routerLink="{{o.url}}" routerLinkActive="active" class="con-o" *ngFor="let o of options">
+            <div class="option">{{o.name}}</div>
+    </div>
+   
+</div>

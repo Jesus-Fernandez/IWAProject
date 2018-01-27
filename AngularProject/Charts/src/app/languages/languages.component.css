@@ -1,0 +1,39 @@
+.card{
+    margin: .5em 0;
+    border: solid 1px black;
+}
+
+.card:hover .contenido{
+    display: block;
+}
+
+.contenido{
+    display: none;
+    height: 100px;
+    padding: .5em 1em 0 0;
+}
+.container-cursos{
+    position: absolute;
+    right: 0;
+    width: 20%;
+}
+
+.menu-courses{
+    padding: 2px 4px;
+    margin-bottom:2px;
+    text-align:center;
+}
+.menu-courses:hover{
+    cursor: pointer;
+}
+
+.side-bar{
+    height: 100%;
+    background-color: black;
+}
+.borde-i{
+    position: absolute;
+    float: left;
+    width: 1em;
+    height: 100%;
+}
