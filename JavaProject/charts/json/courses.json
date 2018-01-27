@@ -1,0 +1,27 @@
+[
+  {
+    "id":"Python",
+    "description":"Python 3 Course",
+    "hours": 50
+  },
+  {
+    "id":"Java",
+    "description":"Java Course for dummies",
+    "hours": 100
+  },
+  {
+    "id":"AngularJS",
+    "description":"AngularJS Advance Course",
+    "hours": 50
+  },
+  {
+    "id":"PHP",
+    "description":"Improve your PHP skills",
+    "hours": 50
+  },
+  {
+    "id":"Ionic",
+    "description":"Ionic 2",
+    "hours": 50
+  }
+]
