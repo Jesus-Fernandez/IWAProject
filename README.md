@@ -29,7 +29,7 @@ npm install http-server -g
 ```
 
 
-In order to run this project, use different cmd windows and go into **executables folder** then type the following instructions:
+In order to run this project, use different cmd windows and go into **executable folder** then type the following instructions:
 ```
 http-server ./dist 7070
 ```
